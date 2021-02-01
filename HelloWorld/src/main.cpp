@@ -1,6 +1,5 @@
 #include <iostream>
 #include <filesystem>
-#include <io.h>
 #include <fcntl.h>
 
 namespace fs = std::filesystem;
