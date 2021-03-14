@@ -9,3 +9,4 @@ workspace "CPP_Projects"
     }
 
 include "HelloWorld"
+include "HelloPI"
