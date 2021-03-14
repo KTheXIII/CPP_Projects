@@ -3,6 +3,12 @@
 #include <string>
 #include <cstdio>
 
+/**
+ * @brief The Bailey–Borwein–Plouffe PI approximation formula.
+ *
+ * @param k Current iteration in the sum.
+ * @return Value to be sum for PI.
+ */
 double pi_bbp(double k) {
     return (1.0 / std::pow(16.0, k)) *
            ((4.0 / (8.0 * k + 1.0)) - (2.0 / (8.0 * k + 4.0)) -
