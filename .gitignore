@@ -25,3 +25,11 @@ Makefile
 
 ## Visual Studio Code
 .vscode
+
+# System Files
+###############################################################################
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
