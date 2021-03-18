@@ -10,3 +10,4 @@ workspace "CPP_Projects"
 
 include "HelloWorld"
 include "HelloPI"
+include "IEEE754"
