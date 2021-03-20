@@ -13,6 +13,10 @@ project "HelloWorld"
         "src/**.cpp",
     }
 
+    includedirs {
+        "src"
+    }
+
     filter "configurations:Debug"
         runtime "Debug"
         symbols "On"

@@ -13,6 +13,10 @@ project "IEEE754"
         "src/**.cpp",
     }
 
+    includedirs {
+        "src"
+    }
+
     filter "configurations:Debug"
         runtime "Debug"
         symbols "On"

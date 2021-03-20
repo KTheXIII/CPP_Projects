@@ -1,4 +1,4 @@
-project "HelloPI"
+project "HelloMatrix"
     kind "ConsoleApp"
     language "C++"
     staticruntime "on"
@@ -15,6 +15,11 @@ project "HelloPI"
 
     includedirs {
         "src"
+    }
+
+    links {
+        -- link library here
+        "ncurses"
     }
 
     filter "configurations:Debug"
